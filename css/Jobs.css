@@ -1,0 +1,104 @@
+:root {
+  --dark-color: #04419c;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffca1a;
+  --section-color: #eff7fa;
+  --gray-color: rgb(109, 98, 86);
+}
+body {
+  font-family: cursive;
+}
+form {
+  width: 400px;
+}
+.non-bord {
+  text-decoration: none;
+}
+
+.create {
+  background-color: var(--dark-color);
+}
+.main-btn {
+  background-color: var(--gray-color);
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0.5rem 1rem;
+}
+.icon-size {
+  width: 40px;
+  height: 45px;
+}
+.main-btn:hover {
+  color: var(--yellow-color);
+}
+.main-font-size {
+  font-size: 15px;
+}
+/*Start Navbar*/
+.navbar {
+  background-color: var(--dark-color);
+}
+.nav-yellow {
+  background-color: var(--yellow-color);
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--green-color);
+}
+.navbar .navbar-nav .nav-link2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.navbar .navbar-nav .nav-link2.active,
+.navbar .navbar-nav .nav-link2:focus,
+.navbar .navbar-nav .nav-link2:hover {
+  color: black;
+}
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  border-color: white;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .search {
+  border-left: 1px solid var(--green-color);
+}
+.bord {
+  text-decoration: none;
+  color: var(--gray-color);
+  font-size: 20px;
+}
+.bord:hover {
+  color: black;
+}
+.again {
+  color: var(--dark-color);
+  font-size: 20px;
+  width: 100px;
+}
+.over {
+  overflow: hidden;
+}
+.img-sizing {
+  width: 500px;
+  height: 200px;
+}
+.again:hover {
+  color: var(--dark-color);
+}
+.navbar .search svg {
+  color: var(--green-color);
+}
+/*End Navbar*/
+.marg {
+  margin-left: 5px;
+}

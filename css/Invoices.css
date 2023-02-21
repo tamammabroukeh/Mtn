@@ -1,0 +1,113 @@
+:root {
+  --dark-color: #04419c;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffca1a;
+  --section-color: #eff7fa;
+  --gray-color: rgb(109, 98, 86);
+}
+body {
+  font-family: cursive;
+}
+.non-bord {
+  text-decoration: none;
+}
+.main-btn {
+  background-color: var(--gray-color);
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0.5rem 1rem;
+}
+.icon-size {
+  width: 40px;
+  height: 45px;
+}
+.main-btn:hover {
+  color: var(--yellow-color);
+}
+.main-font-size {
+  font-size: 15px;
+}
+/*Start Navbar*/
+.navbar {
+  background-color: var(--dark-color);
+}
+.nav-yellow {
+  background-color: var(--yellow-color);
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--green-color);
+}
+.navbar .navbar-nav .nav-link2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.navbar .navbar-nav .nav-link2.active,
+.navbar .navbar-nav .nav-link2:focus,
+.navbar .navbar-nav .nav-link2:hover {
+  color: black;
+}
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  border-color: white;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .search {
+  border-left: 1px solid var(--green-color);
+}
+.navbar .search svg {
+  color: var(--green-color);
+}
+/*End Navbar*/
+.accordion-body:hover {
+  background-color: var(--yellow-color);
+  color: white;
+}
+.bord {
+  border-radius: 8px;
+  margin: 8px;
+  background-color: rgb(230, 222, 222);
+}
+/*Start Footer*/
+.footer {
+  background-color: var(--gray-color);
+}
+.footer .row ul svg {
+  width: 50px;
+  height: 50px;
+}
+.footer .facebook {
+  background-color: #1877f2;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+}
+.footer .linkedin {
+  background-color: #0077b5;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}
+
+.footer .snapchat {
+  background-color: var(--yellow-color);
+}
+
+/*End Footer*/
+.invoices form {
+  background-color: var(--dark-color);
+}

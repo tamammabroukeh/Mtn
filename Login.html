@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/Login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;500&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Start Navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <i class="fa-solid fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#">
+          <span class="text-light fs-6 fw-3 ">ع</span>
+          <svg
+            class="text-light fs-1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-globe-central-south-asia"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM4.882 1.731a.482.482 0 0 0 .14.291.487.487 0 0 1-.126.78l-.291.146a.721.721 0 0 0-.188.135l-.48.48a1 1 0 0 1-1.023.242l-.02-.007a.996.996 0 0 0-.462-.04 7.03 7.03 0 0 1 2.45-2.027Zm-3 9.674.86-.216a1 1 0 0 0 .758-.97v-.184a1 1 0 0 1 .445-.832l.04-.026a1 1 0 0 0 .152-1.54L3.121 6.621a.414.414 0 0 1 .542-.624l1.09.818a.5.5 0 0 0 .523.047.5.5 0 0 1 .724.447v.455a.78.78 0 0 0 .131.433l.795 1.192a1 1 0 0 1 .116.238l.73 2.19a1 1 0 0 0 .949.683h.058a1 1 0 0 0 .949-.684l.73-2.189a1 1 0 0 1 .116-.238l.791-1.187A.454.454 0 0 1 11.743 8c.16 0 .306.084.392.218.557.875 1.63 2.282 2.365 2.282a.61.61 0 0 0 .04-.001 7.003 7.003 0 0 1-12.658.905Z"
+            />
+          </svg>
+        </a>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-lg-2" href="#">حلول الأعمال</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-lg-2" href="http://127.0.0.1:5500/Jobs.html"> MTN وظائف</a>
+            </li>
+          </ul>
+<!--           <div class="search ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a href="#" class="btn main-btn rounded-pill">Login</a> -->
+        </div>
+      </div>
+      </nav>
+    <!--Start Navbar-->
+    <nav class="navbar nav-yellow navbar-expand-lg sticky-top">
+      <div class="container">
+        <button
+          class="navbar-toggler non-norder"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main2"
+          aria-controls="main2"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main2">
+          <div class="searchme d-flex align-items-center ">
+            <a class="navbar-brand" href="#">
+            <svg class = "text-light icon-size" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+            </svg>
+            <label class=" ps-2 ms-2 text-light fw-bold" for="">تسجيل الدخول</label>
+        </a>
+        <input placeholder="بحث" type="text" class="form-control shadow-none d-flex space-between">
+          </div>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav-link2 p-lg-2" aria-current="page" href="#"
+                > MTN حول</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2  p-lg-2" href="#">المركز الإعلامي</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2  p-lg-2" href="#">خدمة الزبائن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2  p-lg-2" href="#">العروض</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link2  p-lg-2" href="#">المنتجات والخدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-0 ms-2" href="http://127.0.0.1:5500/index.html"><img  width="50px" height="40px" src="./img/photo6046600378767751411.jpg" alt=""></a>
+            </li>
+          </ul>
+          </div>
+<!--<div class="search ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a href="#" class="btn main-btn rounded-pill">Login</a> -->
+        </div>
+      </div>
+      </nav>
+    <!--End Navbar-->
+    <p class="p-4 text-center">Please, Enter the information</p>
+    <form
+      action=""
+      method="post"
+      class="mx-auto shadow p-4 needs-validation"
+      novalidate
+    >
+      <div class="row">
+        <div class="pb-2 col-6">
+          <label class="form-label" for="">First Name</label>
+          <input
+            class="form-control"
+            required
+            type="text"
+            placeholder=""
+            id=""
+          />
+          <div class="invalid-feedback">this field should be letters</div>
+          <div class="valid-feedback">this field is valid</div>
+        </div>
+        <div class="pb-2 col-6">
+          <label class="form-label" for="">Last Name</label>
+          <input
+            class="form-control"
+            required
+            type="text"
+            placeholder=""
+            id=""
+          />
+          <div class="invalid-feedback">this field should be letters</div>
+          <div class="valid-feedback">this field is valid</div>
+        </div>
+      </div>
+      <div class="pb-2">
+        <label class="form-label" for="">Email</label>
+          <input class="form-control" type="email" placeholder="" id="" required />
+          <div class="invalid-feedback">this field should be example@gmail.com</div>
+          <div class="valid-feedback">this field is valid</div>
+      </div>
+      <div class="pb-2">
+        <label class="form-label" for="">User Name</label>
+        <div class="input-group">
+          <div class="input-group-text"></div>
+          <input class="form-control" type="text" placeholder="" id="" required />
+          <div class="invalid-feedback">this field should be letters</div>
+          <div class="valid-feedback">this field is valid</div>
+        </div>
+      </div>
+      <div class="pb-2">
+        <label class="form-label" for="">Password</label>
+        <div class="input-group">
+          <div class="input-group-text"></div>
+          <input class="form-control" type="password" placeholder="" id="" required />
+          <div class="invalid-feedback">this field should be letters and numbers and more than 8 characers</html></div>
+          <div class="valid-feedback">this field is valid</div>
+        </div>
+      </div>
+      <div class="pb-2">
+        <label class="form-label" for="">Config Password</label>
+        <div class="input-group">
+          <div class="input-group-text"></div>
+          <input class="form-control" type="password" placeholder="" id="" required/>
+        </div>
+      </div>
+      <div class="pb-2">
+        <label for="">Country</label>
+        <select class="form-select" name="" id="">
+          <option value="damascus">Damascus</option>
+          <option value="aleppo">Aleppo</option>
+          <option value="homs">Homs</option>
+          <option value="hamah">Hamah</option>
+          <option value="latakia">Latakia</option>
+          <option value="tartos">Tartos</option>
+          <option value="daraa">Daraa</option>
+          <option value="edlib">Edlib</option>
+          <option value="alhasaka">Alhasaka</option>
+          <option value="alsouidaa">Alsouidaa</option>
+          <option value="deralzour">Deralzour</option>
+          <option value="alkonaitra">Alkonaitra</option>
+        </select>
+          <div class="invalid-feedback">this field should be selected</div>
+          <div class="valid-feedback">this field is valid</div>
+      </div>
+      <div class="pb-2">
+          <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+          <div class="invalid-feedback">this field should be letters </html></div>
+          <div class="valid-feedback">this field is valid</div>
+          </div>
+      <div class="pb-2">
+        <label for="">Gender</label>
+        <select class="form-select" name="" id="">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div class="pb-2">
+        <label class="form-label" for="">Birthday</label>
+        <div class="input-group">
+          <div class="input-group-text"></div>
+          <input class="form-control" type="text" placeholder="1/1/1990" id=""required/>
+          <div class="invalid-feedback">this field is require</html></div>
+          <div class="valid-feedback">this field is valid</div>
+        </div>
+      </div>
+<!--       <div class="pb-2">
+        <label for="">Job</label>
+        <select class="form-select" name="" id="">
+          <option value="programer">programer</option>
+          <option value="engineer">Engineer</option>
+          <option value="development">Development</option>
+          <option value="hamah">Hamah</option>
+          <option value="latakia">Latakia</option>
+          <option value="tartos">Tartos</option>
+          <option value="daraa">Daraa</option>
+          <option value="edlib">Edlib</option>
+          <option value="alhasaka">Alhasaka</option>
+          <option value="alsouidaa">Alsouidaa</option>
+          <option value="deralzour">Deralzour</option>
+          <option value="alkonaitra">Alkonaitra</option>
+        </select>
+      </div> -->
+      <div class="form-check form-switch pb-2">
+        <input type="checkbox" class="form-check-input" name="" id="" required/>
+        <label for=""> accept Terms &amp; Conditions </label>
+          <div class="invalid-feedback">this checkbox is require</html></div>
+          <div class="valid-feedback">this field is valid</div>
+      </div>
+      <button type="submit" class="btn btn-dark form-button">Submit</button>
+    </form>
+    <script>
+      let form = document.querySelector(".needs-validation");
+      form.addEventListener("submit", (event) => {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          form.classList.add("was-validated");
+        }
+      });
+    </script>
+              <div class="copyright pt-3 text-center">
+                Created By <span> MTN</span>
+                <div>&copy; 2022 </div>
+              </div>
+  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+</html>
